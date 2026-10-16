@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "nohotbarname",
+	"version": "${version}",
+	"name": "No Hotbar Name",
+	"description": "hides the item name that pops up above the hotbar when you switch to a slot with an item in it.",
+	"authors": ["wysss"],
+	"contact": {"sources": "https://github.com/realwysss/No-Hotbar-Name"},
+	"license": "All-Rights-Reserved",
+	"icon": "assets/nohotbarname/icon.png",
+	"environment": "client",
+	"mixins": [
+		{
+			"config": "nohotbarname.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.21.11 <1.22",
+		"java": ">=21"
+	}
+}
